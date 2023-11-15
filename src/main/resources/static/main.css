@@ -15,7 +15,7 @@ a{
 }
 
 .logo {
-    background: aquamarine;
+    background: white;
 }
 
 .content-wrap {
@@ -24,13 +24,18 @@ a{
 }
 
 .side-menu {
-    background: indianred;
+    background: grey;
     width:10%;
     height:800px;
+    overflow: auto;
     text-align: center;
 }
 
+.selected-item {
+    background: blue;
+}
+
 .content {
-    background: lightseagreen;
+    background: black;
     width:90%;
 }
